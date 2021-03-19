@@ -1,0 +1,71 @@
+div.colorizer-box {
+    padding: 10px 15px;
+    margin: 20px;
+    width: 100%;
+}
+
+div.colorizer-box h4 {
+    font-size: 20px;
+    margin: 0 0 2px 0;
+    text-indent: 30px;
+    background: url(./iconblock.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5px;
+    min-width: 50px;
+}
+
+div.colorizer-box p {
+    font-size: 16px;
+    font-weight: 400;
+    text-indent: 1px;
+    padding-left: 26px;
+    padding: 5px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+div.colorizer-box.colorizer-primary h4 {
+    background-color: #2980b9;
+    color: white;
+}
+
+div.colorizer-box.colorizer-success h4 {
+    background-color: #1abc9c;
+    color: white;
+}
+
+div.colorizer-box.colorizer-information h4 {
+    background-color: #6ab0de;
+    color: white;
+}
+
+div.colorizer-box.colorizer-warning h4 {
+    background-color: #f0b37e;
+    color: white;
+}
+
+div.colorizer-box.colorizer-danger h4 {
+    background-color: #e72a1d;
+    color: white;
+}
+
+div.colorizer-box.colorizer-primary p {
+    background-color: #add4ee;
+}
+
+div.colorizer-box.colorizer-success p {
+    background-color: #dbfaf4;
+}
+
+div.colorizer-box.colorizer-information p {
+    background-color: #e7f2fa;
+}
+
+div.colorizer-box.colorizer-warning p {
+    background-color: #ffedcc;
+}
+
+div.colorizer-box.colorizer-danger p {
+    background-color: #ffcccb;
+}
