@@ -18,6 +18,7 @@ As part of the assignment, I created a new block named **Gutenberg Colorizer Blo
 docker-compose up -d
 ```
 4. Activate the `Gutenberg Colorizer Block` on [`http://localhost:8000/wp-admin/plugins.php`](http://localhost:8000/wp-admin/plugins.php)
+
 5. Get your wordpress container up and running at [http://localhost:8000/wp-admin](http://localhost:8000/wp-admin)
 **(Note: The WordPress site is not immediately available on port 8000 because the containers are still being initialized and may take a couple of minutes before the first load)**
 
